@@ -1,13 +1,15 @@
 {
   "expo": {
-    "name": "expo-58-tmp",
-    "slug": "expo-58-tmp",
+    "name": "expo-58",
+    "slug": "expo-58",
+    "scheme": "expo58",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.expo58"
     },
     "android": {
       "adaptiveIcon": {
@@ -16,7 +18,8 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.example.expo58"
     },
     "web": {
       "favicon": "./assets/favicon.png"
